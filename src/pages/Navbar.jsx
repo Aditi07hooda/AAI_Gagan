@@ -17,7 +17,7 @@ function Navbar() {
 
   return (
     <>
-      <nav className='navbar bg-light-blue'>
+      <nav className='navbar'>
         <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
           {/* Remove EPIC logo */}
         </Link>

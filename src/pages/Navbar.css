@@ -27,20 +27,20 @@
 }
 
 .nav-links {
-    color: white;
+    color: black;
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 2rem;
 }
 
 .nav-links:hover {
-    background-color: #1888ff;
+    background-color: rgb(6 182 212);
     border-radius: 2px;
-    color: blue;
+    color: black;
     transition: background-color 0.3s ease-out;
 }
 
 .nav-links.cursor-pointer.relative:hover {
-    background-color: #1888ff;
+    background-color: rgb(6 182 212);
 }
 
 .nav-links.cursor-pointer.relative:hover .dropdown-menu {
@@ -57,11 +57,11 @@
 
 /* dotted vertical line */
 .nav-item:not(:last-child) {
-    border-right: 0.5px dotted white;
+    border-right: 0.5px dotted black;
 }
 
 .nav-item-home {
-    border-right: 0.5px dotted white;
+    border-right: 0.5px dotted black;
 }
 
 .fa-caret-down {
@@ -74,7 +74,7 @@
 
 /* Dropdown Menu */
 .dropdown-menu {
-    background: lightblue;
+    background: rgb(160, 208, 225);
     width: 200px;
     position: absolute;
     list-style: none;
@@ -91,17 +91,17 @@
 }
 
 .dropdown-menu li {
-    background: #1888ff;
+    background: rgb(123, 223, 241);
     cursor: pointer;
     padding: 8px;
-    color: white;
+    color: black;
 }
 
 .dropdown-menu li:hover {
-    background: #5cabff;
-    color: blue;
+    background: rgb(160, 208, 225);
+    color: black;
 }
 
 .dropdown-menu .dropdown-link:hover {
-    color: blue;
+    color: rgb(6 182 212);
 }

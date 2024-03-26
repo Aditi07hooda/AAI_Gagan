@@ -12,7 +12,7 @@ const Header = () => {
         </div>
 
         {/* Center Component with Text */}
-        <div className="flex-grow text-center hidden lg:justify-evenly lg:flex">
+        <div className="flex-grow text-center hidden lg:justify-evenly lg:flex cursor-default">
           <div className="">
             <h4 className="font-bold text-xl text-gray-700">
               भारतीय विमानपत्तन प्राधिकरण
@@ -65,7 +65,7 @@ const Header = () => {
               <i className="fab fa-linkedin text-2xl"></i>
             </a>
           </div>
-          <p className="text-fa-fa-arrows-left-right-to-line">connect to us</p>
+          <p className="text-fa-fa-arrows-left-right-to-line cursor-default">connect to us</p>
         </div>
       </div>
     </header>
